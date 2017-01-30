@@ -308,7 +308,7 @@ html, body {
 	line-height: 75px;
 	margin-left: 68px;
 }
-.logo span{
+.logo span {
 	position: relative;
 	float: left;
 	width: 20px;
@@ -317,13 +317,19 @@ html, body {
 	background: rgba(76,221,243,0.5);
 	margin: 26px 7px 0 0;
 }
-.logo span span{
+
+img.img-logo{
+    margin-right:10px!important;
+    margin-left:-10px;
+}
+.logo  img{
 	position: absolute;
-	width: 10px;
-	height: 10px;
+    height: 30px!important;
+    
 	background: #4cddf3;
 	bottom: 0;
 	left: 0;
+    margin-right:10px !important;
 }
 .main-title .second-title{
 	font-size: 16px;
